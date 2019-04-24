@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testproj]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="AutoTest">
+    <classes>
+      <class name="com.auto.refine.autotest.SaleAutoTest"/>
+      <class name="com.auto.refine.autotest.RefundAutoTest">
+        <methods>
+          <include name="salePreset"/>
+          <include name="refundTest"/>
+        </methods>
+      </class> <!-- com.auto.refine.autotest.RefundAutoTest -->
+      <class name="com.auto.refine.autotest.AuthAutoTest"/>
+      <class name="com.auto.refine.autotest.VoidAutoTest"/>
+      <class name="com.auto.refine.autotest.CaptureAutoTest"/>
+      <class name="com.auto.refine.autotest.CreateTokenAutoTest"/>
+      <class name="com.auto.refine.autotest.TokenSaleAutoTest"/>
+      <class name="com.auto.refine.autotest.TokenAuthAutoTest"/>
+      <class name="com.auto.refine.autotest.TokenCancelAutoTest"/>
+      <class name="com.auto.refine.autotest.CreateTokenSaleAutoTest"/>
+      <class name="com.auto.refine.autotest.CreateTokenAuthAutoTest"/>
+    </classes>
+  </test> <!-- AutoTest -->
+</suite> <!-- Failed suite [testproj] -->

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testproj" duration-ms="13096" started-at="2019-04-23T10:25:46Z" finished-at="2019-04-23T10:25:59Z">
+    <groups>
+    </groups>
+    <test name="AutoTest" duration-ms="13096" started-at="2019-04-23T10:25:46Z" finished-at="2019-04-23T10:25:59Z">
+      <class name="com.auto.refine.autotest.TokenAuthAutoTest">
+        <test-method status="PASS" signature="createTokenPreset()[pri:1, instance:com.auto.refine.autotest.TokenAuthAutoTest@100fc185]" name="createTokenPreset" duration-ms="580" started-at="2019-04-23T18:25:56Z" finished-at="2019-04-23T18:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenPreset -->
+        <test-method status="PASS" signature="tokenAuthTest()[pri:2, instance:com.auto.refine.autotest.TokenAuthAutoTest@100fc185]" name="tokenAuthTest" duration-ms="475" started-at="2019-04-23T18:25:57Z" depends-on-methods="com.auto.refine.autotest.TokenAuthAutoTest.createTokenPreset" finished-at="2019-04-23T18:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tokenAuthTest -->
+      </class> <!-- com.auto.refine.autotest.TokenAuthAutoTest -->
+      <class name="com.auto.refine.autotest.CreateTokenAuthAutoTest">
+        <test-method status="PASS" signature="createTokenSaleTest()[pri:0, instance:com.auto.refine.autotest.CreateTokenAuthAutoTest@36d4b5c]" name="createTokenSaleTest" duration-ms="636" started-at="2019-04-23T18:25:58Z" finished-at="2019-04-23T18:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenSaleTest -->
+      </class> <!-- com.auto.refine.autotest.CreateTokenAuthAutoTest -->
+      <class name="com.auto.refine.autotest.TokenCancelAutoTest">
+        <test-method status="PASS" signature="createTokenPreset()[pri:1, instance:com.auto.refine.autotest.TokenCancelAutoTest@643b1d11]" name="createTokenPreset" duration-ms="493" started-at="2019-04-23T18:25:57Z" finished-at="2019-04-23T18:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenPreset -->
+        <test-method status="PASS" signature="tokenCancelTest()[pri:2, instance:com.auto.refine.autotest.TokenCancelAutoTest@643b1d11]" name="tokenCancelTest" duration-ms="235" started-at="2019-04-23T18:25:58Z" depends-on-methods="com.auto.refine.autotest.TokenCancelAutoTest.createTokenPreset" finished-at="2019-04-23T18:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tokenCancelTest -->
+      </class> <!-- com.auto.refine.autotest.TokenCancelAutoTest -->
+      <class name="com.auto.refine.autotest.CaptureAutoTest">
+        <test-method status="PASS" signature="authPreset()[pri:1, instance:com.auto.refine.autotest.CaptureAutoTest@5d5eef3d]" name="authPreset" duration-ms="760" started-at="2019-04-23T18:25:53Z" finished-at="2019-04-23T18:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authPreset -->
+        <test-method status="PASS" signature="captureTest()[pri:2, instance:com.auto.refine.autotest.CaptureAutoTest@5d5eef3d]" name="captureTest" duration-ms="746" started-at="2019-04-23T18:25:54Z" depends-on-methods="com.auto.refine.autotest.CaptureAutoTest.authPreset" finished-at="2019-04-23T18:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureTest -->
+      </class> <!-- com.auto.refine.autotest.CaptureAutoTest -->
+      <class name="com.auto.refine.autotest.SaleAutoTest">
+        <test-method status="PASS" signature="saleTest()[pri:0, instance:com.auto.refine.autotest.SaleAutoTest@1810399e]" name="saleTest" duration-ms="2577" started-at="2019-04-23T18:25:46Z" finished-at="2019-04-23T18:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleTest -->
+      </class> <!-- com.auto.refine.autotest.SaleAutoTest -->
+      <class name="com.auto.refine.autotest.CreateTokenSaleAutoTest">
+        <test-method status="PASS" signature="createTokenSaleTest()[pri:0, instance:com.auto.refine.autotest.CreateTokenSaleAutoTest@2ef5e5e3]" name="createTokenSaleTest" duration-ms="544" started-at="2019-04-23T18:25:58Z" finished-at="2019-04-23T18:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenSaleTest -->
+      </class> <!-- com.auto.refine.autotest.CreateTokenSaleAutoTest -->
+      <class name="com.auto.refine.autotest.CreateTokenAutoTest">
+        <test-method status="PASS" signature="createTokenTest()[pri:1, instance:com.auto.refine.autotest.CreateTokenAutoTest@6cc4c815]" name="createTokenTest" duration-ms="543" started-at="2019-04-23T18:25:54Z" finished-at="2019-04-23T18:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenTest -->
+      </class> <!-- com.auto.refine.autotest.CreateTokenAutoTest -->
+      <class name="com.auto.refine.autotest.TokenSaleAutoTest">
+        <test-method status="PASS" signature="createTokenPreset()[pri:1, instance:com.auto.refine.autotest.TokenSaleAutoTest@3a82f6ef]" name="createTokenPreset" duration-ms="525" started-at="2019-04-23T18:25:55Z" finished-at="2019-04-23T18:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenPreset -->
+        <test-method status="PASS" signature="tokenSaleTest()[pri:2, instance:com.auto.refine.autotest.TokenSaleAutoTest@3a82f6ef]" name="tokenSaleTest" duration-ms="615" started-at="2019-04-23T18:25:55Z" depends-on-methods="com.auto.refine.autotest.TokenSaleAutoTest.createTokenPreset" finished-at="2019-04-23T18:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tokenSaleTest -->
+      </class> <!-- com.auto.refine.autotest.TokenSaleAutoTest -->
+      <class name="com.auto.refine.autotest.RefundAutoTest">
+        <test-method status="PASS" signature="salePreset()[pri:1, instance:com.auto.refine.autotest.RefundAutoTest@4439f31e]" name="salePreset" duration-ms="701" started-at="2019-04-23T18:25:48Z" finished-at="2019-04-23T18:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salePreset -->
+        <test-method status="PASS" signature="refundTest()[pri:2, instance:com.auto.refine.autotest.RefundAutoTest@4439f31e]" name="refundTest" duration-ms="1792" started-at="2019-04-23T18:25:49Z" depends-on-methods="com.auto.refine.autotest.RefundAutoTest.salePreset" finished-at="2019-04-23T18:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refundTest -->
+      </class> <!-- com.auto.refine.autotest.RefundAutoTest -->
+      <class name="com.auto.refine.autotest.AuthAutoTest">
+        <test-method status="PASS" signature="authTest()[pri:0, instance:com.auto.refine.autotest.AuthAutoTest@5dfcfece]" name="authTest" duration-ms="679" started-at="2019-04-23T18:25:51Z" finished-at="2019-04-23T18:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authTest -->
+      </class> <!-- com.auto.refine.autotest.AuthAutoTest -->
+      <class name="com.auto.refine.autotest.VoidAutoTest">
+        <test-method status="PASS" signature="authPreset()[pri:1, instance:com.auto.refine.autotest.VoidAutoTest@23ceabc1]" name="authPreset" duration-ms="709" started-at="2019-04-23T18:25:52Z" finished-at="2019-04-23T18:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authPreset -->
+        <test-method status="PASS" signature="voidTest()[pri:2, instance:com.auto.refine.autotest.VoidAutoTest@23ceabc1]" name="voidTest" duration-ms="453" started-at="2019-04-23T18:25:52Z" depends-on-methods="com.auto.refine.autotest.VoidAutoTest.authPreset" finished-at="2019-04-23T18:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voidTest -->
+      </class> <!-- com.auto.refine.autotest.VoidAutoTest -->
+    </test> <!-- AutoTest -->
+  </suite> <!-- testproj -->
+</testng-results>

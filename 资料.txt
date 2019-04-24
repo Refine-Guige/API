@@ -1,0 +1,2 @@
+cmd进入pom.xml所在目录
+mvn -f pom.xml clean test  -DxmlFileName=testNG.xml

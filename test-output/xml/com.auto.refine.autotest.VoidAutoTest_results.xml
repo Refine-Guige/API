@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AutoTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.903">
+  <properties />
+  
+  
+            <testcase name="authPreset" time="0.554" classname="com.auto.refine.autotest.VoidAutoTest" />
+                <testcase name="voidTest" time="1.349" classname="com.auto.refine.autotest.VoidAutoTest" />
+      
+</testsuite>

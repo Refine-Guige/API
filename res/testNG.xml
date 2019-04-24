@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<suite name="testproj" parallel="false" preserve-order="true">
+    <test name="AutoTest">
+        <!--<packages>-->
+        <!--<package name="com.testproj.Demo"/>-->
+        <!--</packages>-->
+        <classes>
+
+            <class name="com.auto.refine.autotest.SaleAutoTest"></class>
+            <class name="com.auto.refine.autotest.RefundAutoTest"></class>
+            <methods>
+                <include name="salePreset"/>
+                <include name="refundTest"/>
+            </methods>
+            <class name="com.auto.refine.autotest.AuthAutoTest"></class>
+            <class name="com.auto.refine.autotest.VoidAutoTest"></class>
+            <class name="com.auto.refine.autotest.CaptureAutoTest"></class>
+            <class name="com.auto.refine.autotest.CreateTokenAutoTest"></class>
+            <class name="com.auto.refine.autotest.TokenSaleAutoTest"></class>
+            <class name="com.auto.refine.autotest.TokenAuthAutoTest"></class>
+            <class name="com.auto.refine.autotest.TokenCancelAutoTest"></class>
+            <class name="com.auto.refine.autotest.CreateTokenSaleAutoTest"></class>
+            <class name="com.auto.refine.autotest.CreateTokenAuthAutoTest"></class>
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+</suite>

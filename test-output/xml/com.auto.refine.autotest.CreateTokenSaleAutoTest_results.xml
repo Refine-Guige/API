@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AutoTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.547">
+  <properties />
+  
+  
+            <testcase name="createTokenSaleTest" time="0.547" classname="com.auto.refine.autotest.CreateTokenSaleAutoTest" />
+      
+</testsuite>

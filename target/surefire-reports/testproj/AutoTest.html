@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  AutoTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AutoTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 23 18:25:46 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13096 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.auto.refine.autotest.VoidAutoTest.authPreset()'><b>authPreset</b><br>Test class: com.auto.refine.autotest.VoidAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.VoidAutoTest@23ceabc1</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.CaptureAutoTest.authPreset()'><b>authPreset</b><br>Test class: com.auto.refine.autotest.CaptureAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.CaptureAutoTest@5d5eef3d</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.AuthAutoTest.authTest()'><b>authTest</b><br>Test class: com.auto.refine.autotest.AuthAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.AuthAutoTest@5dfcfece</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.CaptureAutoTest.captureTest()'><b>captureTest</b><br>Test class: com.auto.refine.autotest.CaptureAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.CaptureAutoTest@5d5eef3d</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.TokenSaleAutoTest.createTokenPreset()'><b>createTokenPreset</b><br>Test class: com.auto.refine.autotest.TokenSaleAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.TokenSaleAutoTest@3a82f6ef</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.TokenAuthAutoTest.createTokenPreset()'><b>createTokenPreset</b><br>Test class: com.auto.refine.autotest.TokenAuthAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.TokenAuthAutoTest@100fc185</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.TokenCancelAutoTest.createTokenPreset()'><b>createTokenPreset</b><br>Test class: com.auto.refine.autotest.TokenCancelAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.TokenCancelAutoTest@643b1d11</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.CreateTokenSaleAutoTest.createTokenSaleTest()'><b>createTokenSaleTest</b><br>Test class: com.auto.refine.autotest.CreateTokenSaleAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.CreateTokenSaleAutoTest@2ef5e5e3</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.CreateTokenAuthAutoTest.createTokenSaleTest()'><b>createTokenSaleTest</b><br>Test class: com.auto.refine.autotest.CreateTokenAuthAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.CreateTokenAuthAutoTest@36d4b5c</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.CreateTokenAutoTest.createTokenTest()'><b>createTokenTest</b><br>Test class: com.auto.refine.autotest.CreateTokenAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.CreateTokenAutoTest@6cc4c815</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.RefundAutoTest.refundTest()'><b>refundTest</b><br>Test class: com.auto.refine.autotest.RefundAutoTest</td>
+<td></td>
+<td>1</td>
+<td>com.auto.refine.autotest.RefundAutoTest@4439f31e</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.RefundAutoTest.salePreset()'><b>salePreset</b><br>Test class: com.auto.refine.autotest.RefundAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.RefundAutoTest@4439f31e</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.SaleAutoTest.saleTest()'><b>saleTest</b><br>Test class: com.auto.refine.autotest.SaleAutoTest</td>
+<td></td>
+<td>2</td>
+<td>com.auto.refine.autotest.SaleAutoTest@1810399e</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.TokenAuthAutoTest.tokenAuthTest()'><b>tokenAuthTest</b><br>Test class: com.auto.refine.autotest.TokenAuthAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.TokenAuthAutoTest@100fc185</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.TokenCancelAutoTest.tokenCancelTest()'><b>tokenCancelTest</b><br>Test class: com.auto.refine.autotest.TokenCancelAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.TokenCancelAutoTest@643b1d11</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.TokenSaleAutoTest.tokenSaleTest()'><b>tokenSaleTest</b><br>Test class: com.auto.refine.autotest.TokenSaleAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.TokenSaleAutoTest@3a82f6ef</td></tr>
+<tr>
+<td title='com.auto.refine.autotest.VoidAutoTest.voidTest()'><b>voidTest</b><br>Test class: com.auto.refine.autotest.VoidAutoTest</td>
+<td></td>
+<td>0</td>
+<td>com.auto.refine.autotest.VoidAutoTest@23ceabc1</td></tr>
+</table><p>
+</body>
+</html>
