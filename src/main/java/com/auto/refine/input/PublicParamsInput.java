@@ -17,7 +17,7 @@ public class PublicParamsInput {
     public TreeMap<String,String> publicParams()
 
     {
-        File file = new File("data\\publicParameters.xml");
+        File file = new File("data/publicParameters.xml");
         DocumentBuilderFactory dbfactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = null;
         Document document = null;
