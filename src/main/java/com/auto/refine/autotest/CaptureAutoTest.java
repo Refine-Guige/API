@@ -113,7 +113,7 @@ public class CaptureAutoTest {
 
 
         ParamsInput ParamsInput=new ParamsInput();
-        TreeMap<String,String> param=ParamsInput.Param("data\\captureParams.xlsx");
+        TreeMap<String,String> param=ParamsInput.Param("data/captureParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setVersion(param.get("version"));
         requestData.setCharset(param.get("charset"));
