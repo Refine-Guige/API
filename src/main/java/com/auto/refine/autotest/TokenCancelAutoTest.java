@@ -43,7 +43,7 @@ public class TokenCancelAutoTest {
 
 
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\createTokenParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/createTokenParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setAccessType(param.get("accessType"));
         requestData.setVersion(param.get("version"));
@@ -110,7 +110,7 @@ public class TokenCancelAutoTest {
             }
 
             ParamsInput paramsInput=new ParamsInput();
-            TreeMap<String,String> param=paramsInput.Param("data\\tokenCancelParams.xlsx");
+            TreeMap<String,String> param=paramsInput.Param("data/tokenCancelParams.xlsx");
 
             requestData.setTransType(param.get("transType"));
             requestData.setVersion(param.get("version"));

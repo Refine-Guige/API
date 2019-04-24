@@ -41,7 +41,7 @@ public class RefusedAutoTest {
 
 
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\dynamicSaleParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/dynamicSaleParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setAccessType(param.get("accessType"));
         requestData.setVersion(param.get("version"));
@@ -114,7 +114,7 @@ public class RefusedAutoTest {
 
 
         ParamsInput ParamsInput=new ParamsInput();
-        TreeMap<String,String> param=ParamsInput.Param("data\\refusedParams.xlsx");
+        TreeMap<String,String> param=ParamsInput.Param("data/refusedParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setVersion(param.get("version"));
         requestData.setCharset(param.get("charset"));

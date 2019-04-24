@@ -43,7 +43,7 @@ public class VoidAutoTest {
 
 
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\authParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/authParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setAccessType(param.get("accessType"));
         requestData.setVersion(param.get("version"));
@@ -114,7 +114,7 @@ public class VoidAutoTest {
 
 
         ParamsInput ParamsInput=new ParamsInput();
-        TreeMap<String,String> param=ParamsInput.Param("data\\voidParams.xlsx");
+        TreeMap<String,String> param=ParamsInput.Param("data/voidParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setVersion(param.get("version"));
         requestData.setCharset(param.get("charset"));

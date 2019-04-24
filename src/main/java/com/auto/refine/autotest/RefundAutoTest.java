@@ -41,7 +41,7 @@ public class RefundAutoTest {
 
 
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\saleParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/saleParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setAccessType(param.get("accessType"));
         requestData.setVersion(param.get("version"));
@@ -113,7 +113,7 @@ public class RefundAutoTest {
 
 
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\refundParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/refundParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setVersion(param.get("version"));
         requestData.setCharset(param.get("charset"));

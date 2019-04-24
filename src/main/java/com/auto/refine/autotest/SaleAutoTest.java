@@ -36,7 +36,7 @@ public class SaleAutoTest {
         PublicParamsInput publicParamsInput=new PublicParamsInput();
         TreeMap publicParams=publicParamsInput.publicParams();
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\saleParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/saleParams.xlsx");
         String url=publicParams.get("url").toString();
 
         requestData.setTransType(param.get("transType"));

@@ -42,7 +42,7 @@ public class CreateTokenSaleAutoTest {
 
 
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\createTokenAuthParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/createTokenAuthParams.xlsx");
 
 
         requestData.setTransType(param.get("transType"));

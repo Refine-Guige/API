@@ -42,7 +42,7 @@ public class CaptureAutoTest {
 
 
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\authParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/authParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setAccessType(param.get("accessType"));
         requestData.setVersion(param.get("version"));

@@ -43,7 +43,7 @@ public class ApprovedAutoTest {
 
 
         ParamsInput paramsInput=new ParamsInput();
-        TreeMap<String,String> param=paramsInput.Param("data\\dynamicSaleParams.xlsx");
+        TreeMap<String,String> param=paramsInput.Param("data/dynamicSaleParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setAccessType(param.get("accessType"));
         requestData.setVersion(param.get("version"));
@@ -116,7 +116,7 @@ public class ApprovedAutoTest {
 
 
         ParamsInput ParamsInput=new ParamsInput();
-        TreeMap<String,String> param=ParamsInput.Param("data\\approveParams.xlsx");
+        TreeMap<String,String> param=ParamsInput.Param("data/approveParams.xlsx");
         requestData.setTransType(param.get("transType"));
         requestData.setVersion(param.get("version"));
         requestData.setCharset(param.get("charset"));
